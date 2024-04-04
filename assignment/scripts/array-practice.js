@@ -152,6 +152,10 @@ console.log(gems);
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
 
+gems.sort();
+gems.reverse();
+console.log(gems);
+
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
 //     that's made up of each value from the `gems` array, but separated by the
