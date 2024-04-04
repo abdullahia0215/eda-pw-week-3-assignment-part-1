@@ -131,6 +131,11 @@ console.log('The animals are now', animalArray);
 //      To verify that your code worked, console.log `firstColor`!  
 
 
+colors.shift();
+let firstColor = 'orange';
+
+console.log(colors);
+console.log(firstColor);
 
 
 // STRETCH GOALS:
