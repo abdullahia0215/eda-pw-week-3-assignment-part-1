@@ -110,8 +110,7 @@ let colors = ["orange", "yellow", "green", "teal"];
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
 
-colors.pop();
-let lastColor = "teal";
+let lastColor = colors.pop();
 
 console.log(colors);
 console.log(lastColor);
@@ -125,8 +124,7 @@ console.log("The animals are now", animalArray);
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!
 
-colors.shift();
-let firstColor = "orange";
+let firstColor = colors.shift(0);
 
 console.log(colors);
 console.log(firstColor);
